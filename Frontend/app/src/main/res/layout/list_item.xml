@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/tvLB_rank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rank: "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <TextView
+                android:id="@+id/tvLB_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username: "
+                />
+
+            <TextView
+                android:id="@+id/tvLB_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High Score: "
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
